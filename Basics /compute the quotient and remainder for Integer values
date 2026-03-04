@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int divident,divisor;
+    scanf("%d%d",&divident,&divisor);
+    printf("Quotient = %d",divident/divisor);
+    printf("\nRemainder = %d",divident%divisor);
+}
